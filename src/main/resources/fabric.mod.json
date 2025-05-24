@@ -1,0 +1,37 @@
+{
+	"schemaVersion": 1,
+	"id": "sparkpixel-utility",
+	"version": "${version}",
+	"name": "mrp",
+	"description": "A simple mod that protects resourcepacks from being stolen.",
+	"authors": [
+		"Qingha"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/sparkpixel-utility/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"studio.sp.Mrp"
+		],
+		"client": [
+			"studio.sp.MrpClient"
+		]
+	},
+	"mixins": [
+		"sparkpixel-utility.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.14",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
