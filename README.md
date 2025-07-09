@@ -7,7 +7,7 @@ A lightweight Minecraft mod that enables encrypted server resource packs, automa
 **Before using this mod:**
 1. You **must** configure an AES secret in the config file
 2. The server **may crash on first startup** - this is normal  
-   Simply restart after setting your password in the config file
+   Simply restart after typing password in the config file
 
 > Password: `Sp@admin666` *(To make sure that you get this mod from offically ways)*
 
