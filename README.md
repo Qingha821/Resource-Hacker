@@ -9,7 +9,7 @@ A lightweight Minecraft mod that enables encrypted server resource packs, automa
 2. The server **may crash on first startup** - this is normal  
    Simply restart after setting your password in the config file
 
-> Default Password: `Sp@admin666` *(Change this immediately!)*
+> Password: `Sp@admin666` *(To make sure that you get this mod from offically ways)*
 
 ## 🛠 Installation & Usage
 
